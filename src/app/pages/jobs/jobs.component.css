@@ -1,0 +1,84 @@
+
+.filter .card {
+    background-color: #0e2761e4;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .filter .form-control {
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+  }
+  
+  .filter .form-control:focus {
+    background-color: #555;
+    border-color: #007bff;
+  }
+  
+  .filter label {
+    color: #fff;
+  }
+  
+
+ .filter .btn-dark {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  
+  .filter .btn-dark:hover {
+    background-color: #0056b3;
+  }
+   
+  /* Hover Effects for Job Cards */
+   .job .card:hover {
+    border-color: #007bff;
+    cursor: pointer;
+  }
+   
+  /* General Styles */
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card {
+    margin-bottom: 15px;
+  }
+  
+  .container-fluid {
+    padding: 0 15px;
+  }
+   
+
+
+
+.btn-successbtn-block {
+
+    font-weight: bold; 
+    font-size: 17px; 
+    font-style: italic; 
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: rgb(238, 19, 19);
+  }
+  
+  .btn-successbtn-block:hover {
+    transform: translateX(10px); 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);  
+    color: #db9010;
+  }
+  
+  button {
+    background-color: #343a40; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+  }
+  
+  button:focus {
+    outline: none; 
+  } 
+
+
+
